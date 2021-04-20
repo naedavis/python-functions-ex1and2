@@ -8,7 +8,7 @@ def distance_from_zero(x):
 
 #Exercise2 Determining if a year is a leap year
 
-def leap_year(year):
+def l_year(year):
     if year % 4 == 0 and year % 400 == 0:
         return "True"
     else:
